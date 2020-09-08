@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Gatsby`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Codevux`,
+    author: `Codevux`,
+    description: `Desenvolvimento web`,
+    siteUrl: `https://codevux.netlify.com/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: `codevux`,
+      facebook: `codevux`,
     },
   },
   plugins: [
@@ -114,8 +115,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Codevux - Desenvolvimento web`,
+        short_name: `Codevux`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
